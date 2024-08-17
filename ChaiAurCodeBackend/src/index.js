@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'; // Remove the extra space
 import mongoose from "mongoose";
-import connectDB from "../db/index.js";
+import connectDB from "./db/index.js";
 import { app } from './app.js';
 app
 connectDB().then(() => {

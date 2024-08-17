@@ -16,11 +16,13 @@ app.use(cookieParser())
 
 
 
+//routes
+import userRouter from "./routes/user.routes.js"
 
 
 
-
-
+//routes decalartion
+app.use("/api/v1/user", userRouter)
 
 
 
